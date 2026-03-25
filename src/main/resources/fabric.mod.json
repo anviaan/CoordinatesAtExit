@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "coordinatesatexit",
+	"version": "${version}",
+	"name": "CoordinatesAtExit",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"anvian"
+	],
+    "contributors": [
+        "fansdrid"
+    ],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/coordinatesatexit/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"net.anvian.coordinatesatexit.CoordinatesAtExit"
+		]
+	},
+	"mixins": [
+		"coordinatesatexit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.19",
+		"java": ">=17",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
